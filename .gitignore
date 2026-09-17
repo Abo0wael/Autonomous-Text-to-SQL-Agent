@@ -1,0 +1,39 @@
+# Environment variables & API Keys (NEVER COMMIT)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE and Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ensure SQLite database is tracked and deployed
+!data/Chinook_Sqlite.sqlite
+!Chinook_Sqlite.sqlite
