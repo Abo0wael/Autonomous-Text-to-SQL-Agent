@@ -4,7 +4,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-Abo0wael-181717?style=for-the-badge&logo=github)](https://github.com/Abo0wael)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ahmed%20Wael-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ahmed-wael-9a6a5938a)
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://YOUR-STREAMLIT-APP.streamlit.app)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://autonomous-text-to-sql-agent-ahmedwael.streamlit.app/)
 [![LangGraph](https://img.shields.io/badge/Orchestration-LangGraph-8b5cf6?style=for-the-badge)](https://github.com/langchain-ai/langgraph)
 [![Groq](https://img.shields.io/badge/Inference-Groq%20Cloud-f55036?style=for-the-badge)](https://groq.com)
 
@@ -18,7 +18,7 @@ Available both as an in-depth **educational Jupyter Notebook** and an executive 
 
 ## 🌐 Live Demo
 
-- **Live App URL**: [https://YOUR-STREAMLIT-APP.streamlit.app](https://YOUR-STREAMLIT-APP.streamlit.app) *(Replace with your deployed Streamlit Community Cloud link)*
+- **Live App URL**: [https://autonomous-text-to-sql-agent-ahmedwael.streamlit.app/](https://autonomous-text-to-sql-agent-ahmedwael.streamlit.app/)
 
 ### 📸 Application Preview
 ```
@@ -41,7 +41,7 @@ Available both as an in-depth **educational Jupyter Notebook** and an executive 
 1. [Project Overview](#-project-overview)
 2. [Key Features](#-key-features)
 3. [Tech Stack](#-tech-stack)
-4. [Agent Architecture & Workflow](#-agent-architecture--workflow)
+4. [Agent Architecture & Workflow Diagram](#-agent-architecture--workflow-diagram)
 5. [Groq Model Options](#-groq-model-options)
 6. [Setup & Installation](#-setup--installation)
    - [Conda Environment Setup](#1-conda-environment-setup)
@@ -113,7 +113,17 @@ Select your preferred model directly from the Streamlit sidebar:
 
 ---
 
-## 🔄 Agent Architecture & Workflow
+## 🔄 Agent Architecture & Workflow Diagram
+
+An end-to-end autonomous pipeline translates natural language questions into safe, optimized SQLite queries, featuring dynamic schema introspection, zero-trust security checks, and real-time self-correction loops.
+
+<div align="center">
+  <img src="./Text_to_SQL_flow.png" alt="Autonomous Text-to-SQL Agent end-to-end workflow" width="880" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);" />
+  <br>
+  <em>Autonomous Text-to-SQL Agent end-to-end workflow</em>
+</div>
+
+<br>
 
 ```
                      +---------------------------+
@@ -240,8 +250,8 @@ Deploy this project on **Streamlit Community Cloud** in 6 simple steps:
 5. **Deploy**:
    Click **"Deploy!"**. Streamlit Cloud installs `requirements.txt` and serves your app globally.
 
-6. **Update README**:
-   Replace `https://YOUR-STREAMLIT-APP.streamlit.app` at the top of this README with your live app URL.
+6. **Access Deployed Application**:
+   Your live application is deployed at: [https://autonomous-text-to-sql-agent-ahmedwael.streamlit.app/](https://autonomous-text-to-sql-agent-ahmedwael.streamlit.app/)
 
 ---
 
